@@ -1,0 +1,5 @@
+**/stewpot_api_env/**
+v1/node_modules
+v1/package-lock.json
+all_recipe_metadata.json
+
