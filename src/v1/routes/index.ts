@@ -1,9 +1,9 @@
 import express from 'express';
 
-const router = express.Router();
+const v1Router = express.Router();
 
-router.route('/').get((req, res) => {
+v1Router.route('/').get((req, res) => {
   res.send(`<h2>Hello from ${req.baseUrl} </h2>`);
 });
 
-module.exports = router;
+export default v1Router;
