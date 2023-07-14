@@ -1,5 +1,6 @@
 **/stewpot_api_env/**
 node_modules
 package-lock.json
-all_recipe_metadata.json
+rawData/*
+
 
