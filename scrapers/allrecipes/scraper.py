@@ -84,7 +84,7 @@ def get_all_recipes_metadata():
         json.dump(all_recipes_metadata, file, indent=2)
   return 
 
-get_all_recipes_metadata()
+# get_all_recipes_metadata()
      
     
 
