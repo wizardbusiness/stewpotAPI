@@ -2,5 +2,6 @@
 node_modules
 package-lock.json
 rawData/*
-
+src/.DS_Store
+src/scratch.ts
 
