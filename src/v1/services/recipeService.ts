@@ -1,7 +1,7 @@
-
+import getAllRecipes from "../../database/Recipes";
  
 export const getAllRecipesService = () => {
-    return;
+    return getAllRecipes();
   };
   
 export const getRecipeByIdService = () => {
