@@ -4,4 +4,5 @@ package-lock.json
 rawData/*
 src/.DS_Store
 src/scratch.ts
+src/database/recipe_db.json
 
