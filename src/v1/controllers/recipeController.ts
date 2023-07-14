@@ -3,7 +3,7 @@ import { getAllRecipesService, getRecipeByIdService } from '../services/recipeSe
 
 export const getAllRecipes = (req: Request, res: Response) => {
   const allRecipes = getAllRecipesService();
-  res.send("Get all recipes");
+  res.send({status: 200, data: allRecipes});
 };
 
 export const getRecipeById = (req: Request, res: Response) => {
